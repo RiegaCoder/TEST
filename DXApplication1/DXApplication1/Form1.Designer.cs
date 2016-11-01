@@ -28,34 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // groupControl1
             // 
-            this.button1.Location = new System.Drawing.Point(289, 87);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.groupControl1.Location = new System.Drawing.Point(28, 45);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(346, 219);
+            this.groupControl1.TabIndex = 0;
+            this.groupControl1.Text = "groupControl1";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(283, 304);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.TabIndex = 0;
+            this.simpleButton1.Text = "asdasdasd";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 278);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(558, 393);
+            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.groupControl1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
 
     }
 }
